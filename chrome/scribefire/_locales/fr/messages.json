@@ -1,0 +1,611 @@
+{
+   "action_adbull": {
+      "message": "Monétiser"
+   },
+   "action_blog_add": {
+      "message": "Ajouter un nouveau blog"
+   },
+   "action_blog_import": {
+      "message": "Importez Vos Blogs"
+   },
+   "action_cancel": {
+      "message": "Annuler"
+   },
+   "action_cancel_import": {
+      "message": "Ne Pas Importer ce Blog"
+   },
+   "action_category_add": {
+      "message": "Ajouter une nouvelle catégorie"
+   },
+   "action_close": {
+      "message": "Fermer"
+   },
+   "action_continueEditing": {
+      "message": "Continuer à éditer ce billet"
+   },
+   "action_customField_add": {
+      "message": "Ajouter un champ personnalisé"
+   },
+   "action_delete": {
+      "message": "Supprimer"
+   },
+   "action_draft_save": {
+      "message": "Enregistrer l'avancement du billet"
+   },
+   "action_edit": {
+      "message": "Modifier"
+   },
+   "action_export": {
+      "message": "Exportation"
+   },
+   "action_finish": {
+      "message": "Terminer"
+   },
+   "action_hide": {
+      "message": "Masquer"
+   },
+   "action_import": {
+      "message": "Importation"
+   },
+   "action_insert": {
+      "message": "Insérer"
+   },
+   "action_makeMoney": {
+      "message": "Gagner de l'argent avec ce blog"
+   },
+   "action_next": {
+      "message": "Suivant"
+   },
+   "action_openBlogInTab": {
+      "message": "Ouvrir le blog dans un nouvel onglet"
+   },
+   "action_permalink_edit": {
+      "message": "Lien permanent :"
+   },
+   "action_publishUpdate": {
+      "message": "Mettre à jour $ignore1$ le billet $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_remove": {
+      "message": "Supprimer"
+   },
+   "action_reset": {
+      "message": "Démarrer un nouveau $ignore1$ billet $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_save": {
+      "message": "Enregistrer"
+   },
+   "action_schedule": {
+      "message": "Planification :"
+   },
+   "action_video_add": {
+      "message": "Insérer une vidéo"
+   },
+   "action_view": {
+      "message": "Voir"
+   },
+   "action_zemanta_add": {
+      "message": "Ajouter des liens vers les articles similaires"
+   },
+   "adbull_code_instructions": {
+      "message": "Il suffit de copier et coller ce code dans le template de votre blog, et AdBull fera le reste."
+   },
+   "adbull_company_name": {
+      "message": "Commencez à faire de l'argent avec AdBull"
+   },
+   "adbull_faq_link": {
+      "message": "Lire la FAQ AdBull."
+   },
+   "adbull_introduction": {
+      "message": "Les annonces AdBull sont livrés à curseur de l'utilisateur visitant le site Web sur un éditeur participant. La solution brevetée de livraison ad change l'état du curseur pendant quelques secondes alors que la publicité est cliquable. Le pointeur retourne ensuite à son état normal après les fondus ad sortir ou si l'utilisateur choisit de fermer l'annonce. Si un utilisateur clique sur une publicité, une nouvelle fenêtre contenant la page d'atterrissage de l'annonceur ou site Web de destination s'ouvre."
+   },
+   "adbull_learn_more": {
+      "message": "Cliquez ici pour en savoir plus sur AdBull avant de vous inscrire."
+   },
+   "adbull_text_agree_introduction": {
+      "message": "J'accepte..."
+   },
+   "confirm_deletePost": {
+      "message": "Êtes-vous sûr de vouloir supprimer ce billet ? On l'enlèvera du serveur de votre blog et il n'apparaîtra plus dans votre blog."
+   },
+   "continue": {
+      "message": "Continuer"
+   },
+   "entry_draft_label": {
+      "message": "Brouillon"
+   },
+   "entry_label_format": {
+      "message": "[$entry_type$]  $entry_title$",
+      "placeholders": {
+         "entry_title": {
+            "content": "$2",
+            "example": "My Day at the Beach"
+         },
+         "entry_type": {
+            "content": "$1",
+            "example": "Draft"
+         }
+      }
+   },
+   "entry_localDraft_label": {
+      "message": "Brouillon local"
+   },
+   "entry_new_label": {
+      "message": "(nouveau)"
+   },
+   "entry_scheduled_label": {
+      "message": "Planifié"
+   },
+   "error_api_blogger_authToken": {
+      "message": "Authentification impossible."
+   },
+   "error_api_blogger_authentication": {
+      "message": "Blogger dit que votre identifiant ou mot de passe est erroné."
+   },
+   "error_api_blogger_captcha": {
+      "message": "Google exige que vous remplissiez ce test Captcha a fin de continuer :"
+   },
+   "error_api_blogger_deleted": {
+      "message": "Blogger dit que le compte que vous utilisez a été supprimé."
+   },
+   "error_api_blogger_disabled": {
+      "message": "Blogger dit que votre accès à Blogger a été suspendu."
+   },
+   "error_api_blogger_tos": {
+      "message": "Blogger dit que vous devez accepter les Conditions Générales d'Utilisation de Google; identifiez-vous directement pour résoudre le problème."
+   },
+   "error_api_blogger_unavailable": {
+      "message": "Le service Blogger est momentanément indisponible."
+   },
+   "error_api_blogger_unknown": {
+      "message": "Blogger ne marche pas bien avec ScribeFire. Il a transmis cette erreur : $error$",
+      "placeholders": {
+         "error": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_blogger_uploadAPIUnavailable": {
+      "message": "On n'arrive pas à contacter la fonction de téléchargement d'images de l'interface de programmation (API)."
+   },
+   "error_api_blogger_verify": {
+      "message": "Blogger dit que vous devez vérifier l'adresse e-mail liée à votre compte; identifiez-vous directement pour résoudre le problème."
+   },
+   "error_api_cannotConnect": {
+      "message": "ScribeFire n'arrive pas à se connecter à votre blog."
+   },
+   "error_api_code412": {
+      "message": "Votre blog a retourné une erreur 412. Vous devriez pouvoir corriger ce problème en suivant les instructions sur cette page: $url$",
+      "placeholders": {
+         "url": {
+            "content": "http://wordpress.org/support/topic/130095"
+         }
+      }
+   },
+   "error_api_getBlogs": {
+      "message": "On ne peut pas obtenir l'information dont on a besoin, mais votre blog a répondu ainsi : $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_invalid": {
+      "message": "Ce n'est pas votre faute, mais ScribeFire cherche une interface de programmation API ($api_type$) qui n'existe pas.\nSi vous êtes testeur alpha, il vous faut enlever ce blog et l'ajouter à nouveau.",
+      "placeholders": {
+         "api_type": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noBlog": {
+      "message": "Attendez. Il vous faut ajouter un blog avant de pouvoir publier."
+   },
+   "error_api_noCategorySupport": {
+      "message": "Ce blog ne supporte pas l'addition des catégories."
+   },
+   "error_api_noMessage": {
+      "message": "Votre blog a retourné une erreur $code$, mais aucun message d'erreur n'a pu être trouvé.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noUploadSupport": {
+      "message": "Ce blog ne supporte pas le téléchargement de fichiers."
+   },
+   "error_api_setup": {
+      "message": "En essayant de trouver les préférences de votre blog, ScribeFire est tombé sur le code suivant: $code$",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_setup_unknownBlogType": {
+      "message": "Vous pouvez essayer de configurer votre blog manuellement."
+   },
+   "error_category_add": {
+      "message": "On veux vous aider, mais quelque chose s'est mal passée en ajoutant une nouvelle catégorie. L'erreur était $error_code$.",
+      "placeholders": {
+         "error_code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_header": {
+      "message": "Mmmh, c'est embarrassant…"
+   },
+   "error_page_publish": {
+      "message": "On ne peut pas publier votre page. Voici l'erreur : $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_post_delete": {
+      "message": "On a trouve cette erreur en supprimant votre note : $status$\n\n$msg$",
+      "placeholders": {
+         "msg": {
+            "content": "$2"
+         },
+         "status": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_post_publish": {
+      "message": "On ne peut pas publier votre billet. Voici l'erreur : $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_unknown": {
+      "message": "Une erreur imprévue s'est produit."
+   },
+   "error_video_noEmbed": {
+      "message": "ScribeFire ne peut générer un code embed pour l'URL de cette vidéo. Veuillez vérifier l'URL ou collez manuellement le code embed dans le champ suivant."
+   },
+   "extDescription": {
+      "message": "Un éditeur de blog facile à utiliser qui vous permet de poster sur tous vos blogs."
+   },
+   "extName": {
+      "message": "ScribeFire"
+   },
+   "firsttime_header": {
+      "message": "Bienvenue sur ScribeFire !"
+   },
+   "firsttime_text": {
+      "message": "Vous allez probablement vouloir d'abord ajouter votre blog. Fermez cette fenêtre et cliquez sur « Ajouter un nouveau blog » pour commencer."
+   },
+   "header_blogProperties": {
+      "message": "Propriétés du blog"
+   },
+   "header_video": {
+      "message": "Insérer une vidéo"
+   },
+   "instructions_export": {
+      "message": "Cliquez sur le bouton ci-dessous pour exporter vos blogs et les réglages."
+   },
+   "instructions_import": {
+      "message": "Sélectionnez un fichier de configuration exporté en vue d'importer les blogs et les réglages."
+   },
+   "label_adbull_code": {
+      "message": "Code de Publicité"
+   },
+   "label_adbull_site_url": {
+      "message": "URL de Votre Site:"
+   },
+   "label_apiUrl": {
+      "message": "API URL :"
+   },
+   "label_blog": {
+      "message": "Blog"
+   },
+   "label_blogId": {
+      "message": "ID du blog :"
+   },
+   "label_blog_type": {
+      "message": "Type de blog :"
+   },
+   "label_categories": {
+      "message": "Catégories"
+   },
+   "label_city": {
+      "message": "Ville:"
+   },
+   "label_content": {
+      "message": "Contenu du billet"
+   },
+   "label_country": {
+      "message": "Pays:"
+   },
+   "label_customFields": {
+      "message": "Champs personnalisés"
+   },
+   "label_email": {
+      "message": "Email:"
+   },
+   "label_entry": {
+      "message": "Entrée"
+   },
+   "label_excerpt": {
+      "message": "Extrait :"
+   },
+   "label_genericQuestion": {
+      "message": "Voulez-vous :"
+   },
+   "label_help": {
+      "message": "Aide !"
+   },
+   "label_loginCredentials": {
+      "message": "Identifiants de connexion"
+   },
+   "label_mailing_address": {
+      "message": "Adresse postale:"
+   },
+   "label_name": {
+      "message": "Nom :"
+   },
+   "label_password": {
+      "message": "Mot de passe :"
+   },
+   "label_password_confirm": {
+      "message": "Confirmer le Mot de Passe:"
+   },
+   "label_phone": {
+      "message": "Téléphone:"
+   },
+   "label_private": {
+      "message": "Privé"
+   },
+   "label_promoted": {
+      "message": "(en vedette)"
+   },
+   "label_publish": {
+      "message": "Publier"
+   },
+   "label_settings_section": {
+      "message": "Données et Configurations"
+   },
+   "label_state": {
+      "message": "provaince:"
+   },
+   "label_tags": {
+      "message": "Étiquettes"
+   },
+   "label_url": {
+      "message": "URL :"
+   },
+   "label_username": {
+      "message": "Utilisateur:"
+   },
+   "label_zipcode": {
+      "message": "Code Postal:"
+   },
+   "message_blogs_import": {
+      "message": "Nous allons importer vos blogs de la version précédente de ScribeFire. ScribeFire remplira autant de champs que possible, c'est à vous de cliquer sur «Terminer» puis corriger les erreurs."
+   },
+   "notification_blog_add": {
+      "message": "Votre blog a été ajouté avec succès !"
+   },
+   "notification_draft_delete": {
+      "message": "Brouillon supprimé."
+   },
+   "notification_draft_save": {
+      "message": "Brouillon sauvegardé."
+   },
+   "notification_post_delete": {
+      "message": "Le billet a bien été supprimé."
+   },
+   "notification_publish": {
+      "message": "Votre billet a été publié avec succès."
+   },
+   "notification_publish_update": {
+      "message": "Votre billet a été mis à jour avec succès."
+   },
+   "option_blogType_atom": {
+      "message": "Atom"
+   },
+   "option_blogType_blogger": {
+      "message": "Blogger"
+   },
+   "option_blogType_metaweblog": {
+      "message": "MetaWeblog"
+   },
+   "option_blogType_movabletype": {
+      "message": "MovableType"
+   },
+   "option_blogType_select": {
+      "message": "(choisir)"
+   },
+   "option_blogType_tumblr": {
+      "message": "Tumblr"
+   },
+   "option_blogType_wordpress": {
+      "message": "Wordpress"
+   },
+   "option_publish_immediately": {
+      "message": "Publier immédiatement"
+   },
+   "option_publish_month1": {
+      "message": "Jan"
+   },
+   "option_publish_month10": {
+      "message": "Oct"
+   },
+   "option_publish_month11": {
+      "message": "Nov"
+   },
+   "option_publish_month12": {
+      "message": "Déc"
+   },
+   "option_publish_month2": {
+      "message": "Fév"
+   },
+   "option_publish_month3": {
+      "message": "Mar"
+   },
+   "option_publish_month4": {
+      "message": "Avr"
+   },
+   "option_publish_month5": {
+      "message": "Mai"
+   },
+   "option_publish_month6": {
+      "message": "Jun"
+   },
+   "option_publish_month7": {
+      "message": "Jul"
+   },
+   "option_publish_month8": {
+      "message": "Aoû"
+   },
+   "option_publish_month9": {
+      "message": "Sep"
+   },
+   "option_select_state": {
+      "message": "Sélectionner une Province"
+   },
+   "options_page_title": {
+      "message": "Options"
+   },
+   "prompt_newCategory": {
+      "message": "Nom de la nouvelle catégorie :"
+   },
+   "settings_migrate": {
+      "message": "Importation/Exportation"
+   },
+   "text_adbull_add_new_site": {
+      "message": "Ajouter un nouveau site à votre compte AdBull."
+   },
+   "text_adbull_header": {
+      "message": "NOUVEAU: FAIRE DE L'ARGENT AVEC VOTRE BLOG"
+   },
+   "text_adbull_introduction": {
+      "message": "Cliquez sur le bouton \"monétiser\" ci-dessous créer un compte avec AdBull et commencer à faire de l'argent avec votre blog aujourd'hui, en ajoutant des annonces Adbull du curseur contextuel."
+   },
+   "text_adbull_tos_1": {
+      "message": "Je ne vais pas cliquer sur les annonces AdBull qui sont affichées sur mon site."
+   },
+   "text_adbull_tos_2": {
+      "message": "Je ne vais pas placer des annonces sur des sites qui AdBull inclure des incitations à cliquer sur les annonces."
+   },
+   "text_adbull_tos_3": {
+      "message": "Je ne vais pas placer des annonces sur des sites qui AdBull inclure du contenu pornographique ou illégal."
+   },
+   "text_adbull_tos_4": {
+      "message": "Je certifie que j'ai lu et j'accepte les Termes \u003Ca href=\"http://www.adbull.com/terms\" target=\"_blank\"> AdBull et conditions \u003C/ a>."
+   },
+   "text_count": {
+      "message": "$1 mots; $2 caractères"
+   },
+   "text_get_started": {
+      "message": "Cliquez sur « Ajouter un nouveau blog » pour commencer."
+   },
+   "text_uploading_image": {
+      "message": "téléchargement de votre image ..."
+   },
+   "text_uploading_images": {
+      "message": "téléchargement de $1 images ..."
+   },
+   "text_video1": {
+      "message": "Coller ici l'URL de la vidéo"
+   },
+   "text_video2": {
+      "message": "$url1$ ou $url2$",
+      "placeholders": {
+         "url1": {
+            "content": "youtube.com/watch?v=b_NVbDzsEuw"
+         },
+         "url2": {
+            "content": "http://hulu.com/watch/191543"
+         }
+      }
+   },
+   "text_video3": {
+      "message": "Ou plutôt copier le code intégrable fourni pour votre vidéo dans cette boîte :"
+   },
+   "time_ago_days": {
+      "message": "Il y a $1 jours"
+   },
+   "time_ago_hours": {
+      "message": "Il y a $1 heures"
+   },
+   "time_ago_minutes": {
+      "message": "Il y a $1 minutes"
+   },
+   "time_ago_seconds": {
+      "message": "Il y a moins d'une minute"
+   },
+   "zemanta_articles_button_text": {
+      "message": "Lien vers les articles"
+   },
+   "zemanta_image_instructions": {
+      "message": "Click sur l'image pour l'ajouter a ton post."
+   },
+   "zemanta_images_button_text": {
+      "message": "Trouver les Images"
+   },
+   "zemanta_instructions": {
+      "message": "Choisissez les articles que vous désirez inclure dans votre billet:"
+   },
+   "zemanta_introduction": {
+      "message": "Zemanta vous aide à créer des postes blog riche en reconnaissant votre sujet et en suggérant des liens utiles relatifs. Il suffit d'écrire votre message, cliquez sur l'icône barre Zemanta (capture d'écran ci-dessous), puis sélectionnez les articles que vous souhaitez créer un lien."
+   },
+   "zemanta_introduction_header": {
+      "message": "Nouveau: Intégration Zemanta"
+   },
+   "zemanta_loading_articles_message": {
+      "message": "S'il vous plaît patienter pendant que ScribeFire récupère les articles connexes du Zemanta ."
+   },
+   "zemanta_loading_images_message": {
+      "message": "S'il vous plaît patienter pendant que ScribeFire récupère les images liées  de Zemanta ..."
+   },
+   "zemanta_no_results": {
+      "message": "Zemanta ne peut pas trouver les articles pertinents pour votre message."
+   },
+   "zemanta_pixie_reminder": {
+      "message": "S'il vous plaît indiquer si oui ou non ScribeFire peut ajouter une image invisible à vos messages lorsque vous utilisez Zemanta."
+   },
+   "zemanta_related_articles": {
+      "message": "Autres articles relatifs à celui-ci, grâce à Zemanta:"
+   },
+   "zemanta_selection_hint": {
+      "message": "Saviez-vous que vous pouvez sélectionner du texte dans votre message avant de cliquer sur l'icône Zemanta pour limiter le texte qu'utilise Zemanta pour trouver des articles connexes?"
+   },
+   "zemanta_tos_accept_request": {
+      "message": "Si vous acceptez les conditions, cliquez sur \"Continuer\"."
+   },
+   "zemanta_tos_description": {
+      "message": "Pour continuer, veuillez accepter les Conditions d'Utilisation de Zemanta (ci-dessous)."
+   },
+   "zemanta_tracking_no": {
+      "message": "Non, Je préfère ne pas ajouter d'image ."
+   },
+   "zemanta_tracking_optin": {
+      "message": "Acceptez-vous que ScribeFire ajoute une image invisible à votre billet pour tracer les statistiques de l'utilisation de Zemanta? Vous ne verrez aucune différence et si vous refusez, la question ne sera plus posée."
+   },
+   "zemanta_tracking_yes": {
+      "message": "Oui, ScribeFire peut ajouter une image témoin aux billets quand j'utilise Zemanta."
+   }
+}

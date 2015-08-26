@@ -1,0 +1,107 @@
+{
+   "action_blog_add": {
+      "message": "Додај нови блог"
+   },
+   "action_cancel": {
+      "message": "Поништи"
+   },
+   "action_delete": {
+      "message": "Обриши"
+   },
+   "action_edit": {
+      "message": "Промени"
+   },
+   "action_finish": {
+      "message": "Готово"
+   },
+   "action_insert": {
+      "message": "Убаци"
+   },
+   "action_makeMoney": {
+      "message": "Зарадите помоћу овог блога"
+   },
+   "action_next": {
+      "message": "Следећи"
+   },
+   "action_remove": {
+      "message": "Уклони"
+   },
+   "action_save": {
+      "message": "Сачувај"
+   },
+   "action_schedule": {
+      "message": "Распоред:"
+   },
+   "action_video_add": {
+      "message": "Убаци филм"
+   },
+   "action_view": {
+      "message": "Поглед"
+   },
+   "continue": {
+      "message": "Настави"
+   },
+   "entry_new_label": {
+      "message": "(ново)"
+   },
+   "extName": {
+      "message": "ScribeFire"
+   },
+   "firsttime_header": {
+      "message": "Добродошли у ScribeFire!"
+   },
+   "label_excerpt": {
+      "message": "Исечак:"
+   },
+   "label_help": {
+      "message": "ПОМОЋ!"
+   },
+   "label_name": {
+      "message": "Име:"
+   },
+   "label_private": {
+      "message": "Лично"
+   },
+   "label_publish": {
+      "message": "Објави"
+   },
+   "option_blogType_select": {
+      "message": "(означи)"
+   },
+   "option_publish_month1": {
+      "message": "Јан"
+   },
+   "option_publish_month10": {
+      "message": "Окт"
+   },
+   "option_publish_month11": {
+      "message": "Нов"
+   },
+   "option_publish_month12": {
+      "message": "Дец"
+   },
+   "option_publish_month2": {
+      "message": "Феб"
+   },
+   "option_publish_month3": {
+      "message": "Мар"
+   },
+   "option_publish_month4": {
+      "message": "Апр"
+   },
+   "option_publish_month5": {
+      "message": "Мај"
+   },
+   "option_publish_month6": {
+      "message": "Јун"
+   },
+   "option_publish_month7": {
+      "message": "Јул"
+   },
+   "option_publish_month8": {
+      "message": "Авг"
+   },
+   "option_publish_month9": {
+      "message": "Сеп"
+   }
+}

@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="skin/chrome-preferences-page.css" />
+        <link rel="icon" type="image/png" href="skin/icon-16.png" />
+    </head>
+    <body>
+        <div id="main-content">
+            <div id="navbar-container">
+                <h1 id="settings-title" class="i18n" data-key="extName"></h1>
+                <h2 class="settings-subtitle i18n" data-key="preferences"></h2>
+                <ul id="sites">
+                    <li class="navbar-item navbar-item-selected" pagename="general"><i18n data-key="options_general" /></li>
+                </ul>
+            </div>
+            <div id="mainview">
+                <div id="mainview-content">
+                    <div id="generalPage" class="page">
+                        <h1 class="i18n" data-key="options_general"></h1>
+                        <section>
+                            <h3 class="i18n" data-key="header_publishing"></h3>
+                            <div>
+                                <input class="preference" id="pref-multipost" pref-name="multipost" pref-type="bool" type="checkbox" />
+                                <label for="pref-multipost" class="i18n" data-key="label_pref_multipost"></label>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h3 class="i18n" data-key="header_composition"></h3>
+                            <div>
+                                <input class="preference" id="pref-markdown" pref-name="markdown" pref-type="bool" type="checkbox" />
+                                <label for="pref-markdown" class="i18n" data-key="label_pref_markdown"></label>
+
+                                <br/><br/>
+
+                                <label for="pref-defaultLinkTarget" class="i18n" data-key="label_pref_linkTarget"></label>
+                                <select class="preference" id="pref-defaultLinkTarget" pref-name="defaultLinkTarget" pref-type="char">
+                                    <option value="" class="i18n" data-key="target_none"></option>
+                                    <option value="_self" class="i18n" data-key="target_self"></option>
+                                    <option value="_blank" class="i18n" data-key="target_blank"></option>
+                                </select>
+
+                                <br/><br/>
+
+                                <label for="pref-blogThisTemplate" class="i18n" data-key="label_pref_blogThisTemplate"></label>
+                                <textarea class="preference" id="pref-blogThisTemplate" pref-name="blogThisTemplate" pref-type="char" rows="6" cols="80"></textarea>
+                                <p class="i18n" data-key="description_blogThisTemplate"></p>
+
+                                <br/>
+                                <label>
+                                    <input type="checkbox" class="preference" pref-name="newWindow" pref-type="bool" />
+                                    Open Scribefire in new Window
+                                </label>
+                                <br />
+                                <label>
+                                    <input type="checkbox" class="preference" pref-name="autoAddP" pref-type="bool" />
+                                    Automatically add &lt;p&gt; tags
+                                </label>
+                                <br />
+                                <label>
+                                    <input type="checkbox" class="preference" pref-name="enterBr" pref-type="bool" />
+                                    HTML editing newlines use &lt;br&gt; tag, otherwise newlines use &lt;p&gt; tag
+                                </label>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h3 class="i18n" data-key="header_display"></h3>
+
+                            <div>
+                                <div platform-only="gecko">
+                                    <label for="pref-mode" class="i18n" data-key="label_pref_mode"></label>
+                                    <select class="preference" id="pref-mode" pref-name="mode" pref-type="char">
+                                        <option value="split-screen" class="i18n" data-key="mode_split_screen"></option>
+                                        <option value="tab" class="i18n" data-key="mode_tab"></option>
+                                        <option value="window" class="i18n" data-key="mode_window"></option>
+                                    </select>
+
+                                    <br /><br />
+                                </div>
+
+                                <input class="preference" id="pref-rtl" pref-name="rtl" pref-type="bool" type="checkbox" />
+                                <label for="pref-rtl" class="i18n" data-key="label_pref_rtl"></label>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="vendor/jquery.js"></script>
+        <script type="text/javascript" src="lib/platform.js"></script>
+        <script type="text/javascript" src="lib/i18n.js"></script>
+        <script type="text/javascript" src="util.js"></script>
+        <script type="text/javascript" src="scribefire.js"></script>
+        <script type="text/javascript" src="lib/keyboard.js"></script>
+        <script type="text/javascript" src="js/scribefire-options.js"></script>
+    </body>
+</html>

@@ -1,0 +1,796 @@
+{
+   "action_adbull": {
+      "message": "Monetize"
+   },
+   "action_blog_add": {
+      "message": "Add a New Blog"
+   },
+   "action_blog_import": {
+      "message": "Import Your Blogs"
+   },
+   "action_cancel": {
+      "message": "Cancel"
+   },
+   "action_cancel_import": {
+      "message": "Don't Import This Blog"
+   },
+   "action_category_add": {
+      "message": "Add a New Category"
+   },
+   "action_close": {
+      "message": "Close"
+   },
+   "action_continueEditing": {
+      "message": "Continue editing this post"
+   },
+   "action_customField_add": {
+      "message": "Add Custom Field"
+   },
+   "action_delete": {
+      "message": "Delete"
+   },
+   "action_draft_save": {
+      "message": "Save Progress"
+   },
+   "action_edit": {
+      "message": "Edit"
+   },
+   "action_editHTML": {
+      "message": "Edit Code (HTML and Markdown)"
+   },
+   "action_editVisual": {
+      "message": "Edit Visually"
+   },
+   "action_export": {
+      "message": "Export"
+   },
+   "action_finish": {
+      "message": "Finish"
+   },
+   "action_hide": {
+      "description": "Used as the text on a button to hide a portion of the interface.",
+      "message": "Hide"
+   },
+   "action_import": {
+      "message": "Import"
+   },
+   "action_insert": {
+      "message": "Insert"
+   },
+   "action_load": {
+      "message": "Load"
+   },
+   "action_makeMoney": {
+      "message": "Make money with this blog"
+   },
+   "action_multipost": {
+      "message": "Publish to These Blogs Too"
+   },
+   "action_next": {
+      "message": "Next"
+   },
+   "action_openBlogInTab": {
+      "message": "Open blog in a new tab"
+   },
+   "action_permalink_edit": {
+      "message": "Permalink:"
+   },
+   "action_publish": {
+      "message": "Publish $ignore1$ Post $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_publishUpdate": {
+      "message": "Update $ignore1$ Post $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_remove": {
+      "message": "Remove"
+   },
+   "action_reset": {
+      "message": "Start a New $ignore1$ Post $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_save": {
+      "message": "Save"
+   },
+   "action_schedule": {
+      "message": "Schedule:"
+   },
+   "action_video_add": {
+      "message": "Insert a video"
+   },
+   "action_view": {
+      "message": "View"
+   },
+   "action_zemanta_add": {
+      "message": "Add links to related articles"
+   },
+   "adbull_code_instructions": {
+      "message": "Just copy and paste this code into your blog's template, and AdBull will do the rest."
+   },
+   "adbull_company_name": {
+      "message": "Start Making Money With AdBull"
+   },
+   "adbull_faq_link": {
+      "message": "Read the AdBull FAQ."
+   },
+   "adbull_introduction": {
+      "message": "AdBull ads are delivered to the user's cursor upon visiting a participating publisher's website. The patented ad delivery solution changes the state of the cursor for a few seconds while the ad is clickable. The cursor then returns to its normal state after the ad fades out or if the user chooses to close the ad. If a user clicks on an advertisement, a new window containing the advertiser’s landing page or website destination opens."
+   },
+   "adbull_learn_more": {
+      "message": "Click here to learn more about AdBull before signing up."
+   },
+   "adbull_text_agree_introduction": {
+      "message": "I agree that..."
+   },
+   "button_migrate": {
+      "message": "Import/Export"
+   },
+   "button_preferences": {
+      "message": "ScribeFire Options"
+   },
+   "button_save_template": {
+      "message": "Save Current Post as Template"
+   },
+   "cancel_private_status": {
+      "message": "Ok, I'll let you make whatever changes you need to make before saving this as a private post."
+   },
+   "confirm_deletePost": {
+      "message": "Are you sure you want to delete this post? It will be removed from your blog's server, and it will no longer appear on your blog."
+   },
+   "confirm_generic": {
+      "message": "Are you sure?"
+   },
+   "confirm_not_saved": {
+      "message": "Are you sure you want to do this? You haven't saved the current version of this post yet.\n\n(Click 'Save Progress' at the bottom of the page to save your progress.)"
+   },
+   "confirm_private_status": {
+      "message": "Due to limitations of your blogging service, a private post can't be saved as a draft.\n\nDo you want to save it as a draft and set it as private when you publish it?"
+   },
+   "continue": {
+      "message": "Continue"
+   },
+   "description_blogThisTemplate": {
+      "message": "$U: URL of the page, $T: page title, $S: the selected text"
+   },
+   "entry_draft_label": {
+      "description": "The label that is prepended to drafts that are saved on the user's blog.",
+      "message": "Draft"
+   },
+   "entry_label_format": {
+      "description": "The format used for showing entry types and titles in the dropdown list.  e.g, \"[Draft] My Day at the Beach\"",
+      "message": "[$entry_type$] $entry_title$",
+      "placeholders": {
+         "entry_title": {
+            "content": "$2",
+            "example": "My Day at the Beach"
+         },
+         "entry_type": {
+            "content": "$1",
+            "example": "Draft"
+         }
+      }
+   },
+   "entry_localDraft_label": {
+      "description": "The label that is prepended to drafts that are saved on the user's computer.",
+      "message": "Local Draft"
+   },
+   "entry_new_label": {
+      "description": "The label that appears in the entries list to designate a new post.",
+      "message": "(new)"
+   },
+   "entry_scheduled_label": {
+      "description": "The label that is prepended to posts that have been scheduled but not yet published.",
+      "message": "Scheduled"
+   },
+   "error_adbull": {
+      "message": "AdBull returned an unexpected response: $1"
+   },
+   "error_api_blogger_authToken": {
+      "message": "Could not acquire an authentication token."
+   },
+   "error_api_blogger_authentication": {
+      "message": "Blogger says that you entered the wrong username or password."
+   },
+   "error_api_blogger_captcha": {
+      "message": "Google requires that you complete this CAPTCHA in order to continue:"
+   },
+   "error_api_blogger_deleted": {
+      "message": "Blogger says that the account you're using has been deleted."
+   },
+   "error_api_blogger_disabled": {
+      "message": "Blogger says that your access to Blogger has been disabled."
+   },
+   "error_api_blogger_tos": {
+      "message": "Blogger says that you still need to agree to Google's Terms of Service; log into your account directly to handle this."
+   },
+   "error_api_blogger_unavailable": {
+      "message": "Blogger says that the Blogger service is temporarily unavailable."
+   },
+   "error_api_blogger_unknown": {
+      "message": "Blogger isn't playing nicely; it's giving ScribeFire an error: $error$",
+      "placeholders": {
+         "error": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_blogger_uploadAPIUnavailable": {
+      "message": "Could not contact the image upload API."
+   },
+   "error_api_blogger_verify": {
+      "message": "Blogger says that you need to verify your account's email address; log into your account directly to handle this."
+   },
+   "error_api_cannotConnect": {
+      "message": "ScribeFire could not successfully connect to your blog."
+   },
+   "error_api_code412": {
+      "message": "The blog returned a 412 error code. You may be able to fix this by following the instructions at $url$",
+      "placeholders": {
+         "url": {
+            "content": "http://wordpress.org/support/topic/130095"
+         }
+      }
+   },
+   "error_api_getBlogs": {
+      "message": "ScribeFire couldn't get the information it needed about your blog. Helpfully, your blog returned this message: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_invalid": {
+      "message": "It's not your fault, but ScribeFire is looking for an API ($api_type$) that doesn't exist.\n\nIf you're an alpha tester, you need to remove this blog and add it again.",
+      "placeholders": {
+         "api_type": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noBlog": {
+      "message": "Slow down... You need to add your blog before you can publish."
+   },
+   "error_api_noCategorySupport": {
+      "message": "This blog does not support adding categories."
+   },
+   "error_api_noMessage": {
+      "message": "The blog returned a $code$ error code, but no error message could be found.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noUploadSupport": {
+      "message": "This blog does not support uploading files."
+   },
+   "error_api_setup": {
+      "message": "While trying to determine your blog's settings, ScribeFire tripped over this code: $code$",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_setup_unknownBlogType": {
+      "message": "You're welcome to try and configure your blog manually."
+   },
+   "error_category_add": {
+      "message": "ScribeFire really wanted to help, but something broke when trying to add a category.  The error code was $error_code$.",
+      "placeholders": {
+         "error_code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_header": {
+      "description": "This string is used as the title for any major error that has to be shown. It should relay a sense of 'ScribeFire did something wrong, not you.'",
+      "message": "Well, this is embarrassing..."
+   },
+   "error_page_publish": {
+      "message": "ScribeFire couldn't publish your page. Here's the error message that bubbled up: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_post_delete": {
+      "message": "ScribeFire found this little error when trying to delete your post: $status$\n\n$msg$",
+      "placeholders": {
+         "msg": {
+            "content": "$2"
+         },
+         "status": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_post_publish": {
+      "message": "ScribeFire couldn't publish your post. Here's the error message that bubbled up: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_unknown": {
+      "message": "An unanticipated error occurred."
+   },
+   "error_video_noEmbed": {
+      "message": "ScribeFire could not generate an embed code for this video URL. Please check the URL, or manually paste the embed code in the bottom box."
+   },
+   "extDescription": {
+      "description": "One-line description of ScribeFire.",
+      "message": "An easy-to-use blog editor lets you post to all of your blogs."
+   },
+   "extName": {
+      "message": "ScribeFire"
+   },
+   "firsttime_header": {
+      "message": "Welcome to ScribeFire!"
+   },
+   "firsttime_text": {
+      "message": "The first thing you're probably going to want to do is add your blog.  Close this dialog and click 'Add a New Blog' to get started."
+   },
+   "header_blogProperties": {
+      "message": "Blog Properties"
+   },
+   "header_composition": {
+      "message": "Composition"
+   },
+   "header_display": {
+      "message": "Display Options"
+   },
+   "header_publishing": {
+      "message": "Publishing"
+   },
+   "header_video": {
+      "message": "Insert a Video"
+   },
+   "instructions_export": {
+      "message": "Click the button below to export your blogs and settings."
+   },
+   "instructions_import": {
+      "message": "Select an exported configuration file in order to import the blogs and settings."
+   },
+   "label_adbull_code": {
+      "message": "Advertising Code:"
+   },
+   "label_adbull_site_url": {
+      "message": "Your Site's URL:"
+   },
+   "label_apiUrl": {
+      "message": "API URL:"
+   },
+   "label_blog": {
+      "message": "Blog"
+   },
+   "label_blogId": {
+      "message": "Blog ID:"
+   },
+   "label_blog_type": {
+      "message": "Blog Type:"
+   },
+   "label_categories": {
+      "message": "Categories"
+   },
+   "label_city": {
+      "message": "City:"
+   },
+   "label_content": {
+      "message": "Post Content"
+   },
+   "label_country": {
+      "message": "Country:"
+   },
+   "label_customFields": {
+      "message": "Custom Fields"
+   },
+   "label_email": {
+      "message": "Email:"
+   },
+   "label_entry": {
+      "message": "Entry"
+   },
+   "label_excerpt": {
+      "message": "Excerpt:"
+   },
+   "label_genericQuestion": {
+      "message": "Do you want to:"
+   },
+   "label_help": {
+      "description": "The text that a user clicks on if they need help with ScribeFire.",
+      "message": "HELP!"
+   },
+   "label_load_template": {
+      "message": "-- Select a template --"
+   },
+   "label_loginCredentials": {
+      "message": "Login Credentials"
+   },
+   "label_mailing_address": {
+      "message": "Mailing Address:"
+   },
+   "label_multipost": {
+      "message": "Or do you want to publish this post to other blogs?"
+   },
+   "label_name": {
+      "message": "Name:"
+   },
+   "label_password": {
+      "message": "Password:"
+   },
+   "label_password_confirm": {
+      "message": "Confirm Password:"
+   },
+   "label_phone": {
+      "message": "Phone:"
+   },
+   "label_pref_blogThisTemplate": {
+      "message": "Template for 'Blog This':"
+   },
+   "label_pref_linkTarget": {
+      "message": "Default link target:"
+   },
+   "label_pref_markdown": {
+      "message": "Enable Markdown $help_link$ support in the code editor",
+      "placeholders": {
+         "help_link": {
+            "content": "\u003Ca href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\" class=\"explanatory\">?\u003C/a>"
+         }
+      }
+   },
+   "label_pref_mode": {
+      "message": "By default, open ScribeFire in..."
+   },
+   "label_pref_multipost": {
+      "message": "After publishing a post, show list of other blogs to publish to."
+   },
+   "label_pref_rtl": {
+      "message": "Make text 'Right-to-left'"
+   },
+   "label_private": {
+      "message": "Private"
+   },
+   "label_promoted": {
+      "description": "Used to indicate that a link has been sponsored by an advertiser.",
+      "message": "(promoted)"
+   },
+   "label_publish": {
+      "description": "The label for the portion of the interface that contains publishing options.",
+      "message": "Publish"
+   },
+   "label_settings_section": {
+      "message": "Settings and Data"
+   },
+   "label_state": {
+      "message": "State:"
+   },
+   "label_tags": {
+      "message": "Tags"
+   },
+   "label_templates": {
+      "message": "Templates"
+   },
+   "label_title": {
+      "message": "Title"
+   },
+   "label_url": {
+      "message": "URL:"
+   },
+   "label_username": {
+      "message": "Username:"
+   },
+   "label_zipcode": {
+      "message": "Zipcode:"
+   },
+   "message_blogs_import": {
+      "message": "Let's import your blogs from the previous version of ScribeFire. ScribeFire will populate as many fields as possible; it's up to you to click 'Finish' and then correct any errors."
+   },
+   "mode_split_screen": {
+      "message": "split-screen mode."
+   },
+   "mode_tab": {
+      "message": "a new tab."
+   },
+   "mode_window": {
+      "message": "a new window."
+   },
+   "notice_publishing": {
+      "message": "Publishing..."
+   },
+   "notification_blog_add": {
+      "message": "Your blog was added successfully!"
+   },
+   "notification_draft_delete": {
+      "message": "Draft deleted."
+   },
+   "notification_draft_save": {
+      "message": "Draft saved."
+   },
+   "notification_import_complete": {
+      "message": "Import complete. Close and re-open ScribeFire to continue."
+   },
+   "notification_post_delete": {
+      "message": "Post deleted successfully."
+   },
+   "notification_publish": {
+      "message": "Your post was published successfully."
+   },
+   "notification_publish_draft": {
+      "message": "Your draft was saved successfully."
+   },
+   "notification_publish_update": {
+      "message": "Your post was updated successfully."
+   },
+   "notification_template_saved": {
+      "message": "Saved!"
+   },
+   "option_blogType_atom": {
+      "message": "Atom"
+   },
+   "option_blogType_blogger": {
+      "message": "Blogger"
+   },
+   "option_blogType_livejournal": {
+      "message": "LiveJournal"
+   },
+   "option_blogType_metaweblog": {
+      "message": "MetaWeblog"
+   },
+   "option_blogType_movabletype": {
+      "message": "MovableType"
+   },
+   "option_blogType_select": {
+      "message": "(select)"
+   },
+   "option_blogType_tumblr": {
+      "message": "Tumblr"
+   },
+   "option_blogType_wordpress": {
+      "message": "Wordpress"
+   },
+   "option_publish_immediately": {
+      "message": "Publish Immediately"
+   },
+   "option_publish_month1": {
+      "description": "A three-letter abbreviation of the first month of the year.",
+      "message": "Jan"
+   },
+   "option_publish_month10": {
+      "description": "A three-letter abbreviation of the tenth month of the year.",
+      "message": "Oct"
+   },
+   "option_publish_month11": {
+      "description": "A three-letter abbreviation of the eleventh month of the year.",
+      "message": "Nov"
+   },
+   "option_publish_month12": {
+      "description": "A three-letter abbreviation of the twelfth month of the year.",
+      "message": "Dec"
+   },
+   "option_publish_month2": {
+      "description": "A three-letter abbreviation of the second month of the year.",
+      "message": "Feb"
+   },
+   "option_publish_month3": {
+      "description": "A three-letter abbreviation of the third month of the year.",
+      "message": "Mar"
+   },
+   "option_publish_month4": {
+      "description": "A three-letter abbreviation of the fourth month of the year.",
+      "message": "Apr"
+   },
+   "option_publish_month5": {
+      "description": "A three-letter abbreviation of the fifth month of the year.",
+      "message": "May"
+   },
+   "option_publish_month6": {
+      "description": "A three-letter abbreviation of the sixth month of the year.",
+      "message": "Jun"
+   },
+   "option_publish_month7": {
+      "description": "A three-letter abbreviation of the seventh month of the year.",
+      "message": "Jul"
+   },
+   "option_publish_month8": {
+      "description": "A three-letter abbreviation of the eighth month of the year.",
+      "message": "Aug"
+   },
+   "option_publish_month9": {
+      "description": "A three-letter abbreviation of the ninth month of the year.",
+      "message": "Sep"
+   },
+   "option_select_state": {
+      "message": "Select a State"
+   },
+   "options_general": {
+      "message": "General"
+   },
+   "options_page_title": {
+      "message": "Options"
+   },
+   "preferences": {
+      "message": "Options"
+   },
+   "prompt_newCategory": {
+      "message": "New category name:"
+   },
+   "settings_migrate": {
+      "message": "Import/Export"
+   },
+   "stats_button_no": {
+      "description": "The text on the button that the user clicks to stop stats from being collected about their usage.",
+      "message": "No Thanks"
+   },
+   "stats_button_yes": {
+      "description": "The text on the button that the user clicks to allow stats to be collected about their usage.",
+      "message": "Sure"
+   },
+   "stats_introduction": {
+      "message": "Is it ok if ScribeFire collects some anonymous stats about the way you use it? This includes things like the number of blogs you have, your browser version, and how often you the visual editor versus the code editor, but not things like your blogs' URLs, usernames, or passwords."
+   },
+   "stats_introduction_header": {
+      "message": "Help Improve ScribeFire"
+   },
+   "status_failure": {
+      "message": "Failed"
+   },
+   "status_published": {
+      "message": "Published"
+   },
+   "status_publishing": {
+      "message": "Publishing..."
+   },
+   "target_blank": {
+      "message": "New tab/window"
+   },
+   "target_none": {
+      "message": "None"
+   },
+   "target_self": {
+      "message": "Same tab/window"
+   },
+   "text_adbull_add_new_site": {
+      "message": "Add a new website to your AdBull account."
+   },
+   "text_adbull_header": {
+      "message": "NEW: MAKE MONEY WITH YOUR BLOG"
+   },
+   "text_adbull_introduction": {
+      "message": "Click the \"Monetize\" button underneath your list of blogs to set up an account with AdBull and start making money with your blog today by adding Adbull's contextual cursor ads."
+   },
+   "text_adbull_tos_1": {
+      "message": "I will not click on AdBull ads that are displayed on my website."
+   },
+   "text_adbull_tos_2": {
+      "message": "I will not place AdBull ads on sites that include incentives to click on ads."
+   },
+   "text_adbull_tos_3": {
+      "message": "I will not place AdBull ads on sites that include pornographic or illegal content."
+   },
+   "text_adbull_tos_4": {
+      "message": "I certify that I have read and agree to \u003Ca href=\"http://www.adbull.com/terms\" target=\"_blank\">AdBull's Terms and Conditions\u003C/a>."
+   },
+   "text_blogProperties1": {
+      "message": "To update your API URL or blog ID, click the \"Remove\" button to remove the blog and then re-add it by clicking the \"Add a New Blog\" button."
+   },
+   "text_count": {
+      "message": "$1 words; $2 characters"
+   },
+   "text_get_started": {
+      "message": "Click \"Add a New Blog\" to get started."
+   },
+   "text_uploading_image": {
+      "message": "Uploading your image..."
+   },
+   "text_uploading_images": {
+      "message": "Uploading $1 images..."
+   },
+   "text_video1": {
+      "message": "Paste the URL of the video in the box below."
+   },
+   "text_video2": {
+      "message": "e.g., $url1$ or $url2$",
+      "placeholders": {
+         "url1": {
+            "content": "youtube.com/watch?v=b_NVbDzsEuw"
+         },
+         "url2": {
+            "content": "http://hulu.com/watch/191543"
+         }
+      }
+   },
+   "text_video3": {
+      "message": "Or, copy the embed code provided for your video into this box:"
+   },
+   "time_ago_days": {
+      "message": "$1 days ago"
+   },
+   "time_ago_hours": {
+      "message": "$1 hours ago"
+   },
+   "time_ago_minutes": {
+      "message": "$1 minutes ago"
+   },
+   "time_ago_seconds": {
+      "message": "Less than a minute ago"
+   },
+   "warning_selectBlog": {
+      "message": "You must select at least one blog to which to post."
+   },
+   "zemanta_articles_button_text": {
+      "message": "Link to Articles"
+   },
+   "zemanta_image_instructions": {
+      "message": "Click on an image to add it to your post."
+   },
+   "zemanta_images_button_text": {
+      "message": "Find Images"
+   },
+   "zemanta_instructions": {
+      "message": "Select the articles you'd like to include in your post:"
+   },
+   "zemanta_introduction": {
+      "message": "Zemanta helps you create rich blog posts by recognizing your topic and suggesting useful related links. Just write your post, click the Zemanta toolbar icon (screenshot shown below), and then select the articles you'd like to link to."
+   },
+   "zemanta_introduction_header": {
+      "message": "New: Zemanta Integration"
+   },
+   "zemanta_loading_articles_message": {
+      "message": "Please wait while ScribeFire retrieves related articles from Zemanta..."
+   },
+   "zemanta_loading_images_message": {
+      "message": "Please wait while ScribeFire retrieves related articles from Zemanta..."
+   },
+   "zemanta_no_results": {
+      "message": "Zemanta couldn't find any relevant articles for your post."
+   },
+   "zemanta_pixie_reminder": {
+      "message": "Please indicate whether or not ScribeFire can add an invisible image to your posts when you use Zemanta."
+   },
+   "zemanta_related_articles": {
+      "message": "Related articles, courtesy of Zemanta:"
+   },
+   "zemanta_selection_hint": {
+      "message": "Did you know that you can select text in your post before clicking the Zemanta icon to limit the text that Zemanta uses to find related articles?"
+   },
+   "zemanta_tos_accept_request": {
+      "message": "If you agree to the terms, click 'Continue.'"
+   },
+   "zemanta_tos_description": {
+      "message": "In order to continue, you need to agree to Zemanta's Terms of Service (shown below)."
+   },
+   "zemanta_tracking_no": {
+      "message": "No, I'd rather not include a tracking image."
+   },
+   "zemanta_tracking_optin": {
+      "message": "Is it ok if ScribeFire adds an invisible image to your post to track Zemanta usage statistics? You won't notice a difference either way, and even if you decline, you won't be asked again."
+   },
+   "zemanta_tracking_yes": {
+      "message": "Yes, ScribeFire can add a tracking image to posts when I use Zemanta."
+   }
+}

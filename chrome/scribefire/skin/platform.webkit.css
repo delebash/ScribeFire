@@ -1,0 +1,35 @@
+#content .bar {
+	background: -webkit-gradient(linear, 100% 0%, 100% 100%, from(#e5e5e5), to(#d1d1d1)) !important;
+}
+
+.subbar {
+	background: url(arrow-right-blue.png) 8px 4px no-repeat, -webkit-gradient(linear, 100% 0%, 100% 100%, from(#798bb2), to(#a2b1cf));
+}
+
+.subbar[is_open] {
+	background: url(arrow-down-blue.png) 7px 5px no-repeat, -webkit-gradient(linear, 100% 0%, 100% 100%, from(#798bb2), to(#a2b1cf)) !important;
+}
+
+.bar[busy="true"] {
+	background: url(throbber-16.png) 4px 6px no-repeat;
+	-webkit-background-size: 12px;
+	background-size: 12px;
+	padding-left: 18px !important;
+}
+
+button, input[type='submit'] {
+	-webkit-border-radius: 10px;
+	background: -webkit-gradient(linear, 100% 0%, 100% 100%, from(#dfdfdf), to(#fcfcfc));
+}
+
+button:active, input[type="submit"]:active {
+	background: -webkit-gradient(linear, 100% 0%, 100% 100%, from(#c3c3c3), to(#eeeeee));
+}
+
+button.busy, input[type="submit"].busy {
+	background: url(throbber-16.png) 8px 3px no-repeat, -webkit-gradient(linear, 100% 0%, 100% 100%, from(#dfdfdf), to(#fcfcfc));
+}
+
+button.busy:active, input[type="submit"].busy:active {
+	background: url(throbber-16.png) 8px 3px no-repeat, -webkit-gradient(linear, 100% 0%, 100% 100%, from(#c3c3c3), to(#eeeeee));
+}

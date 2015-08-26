@@ -1,0 +1,46 @@
+body {
+	width: 100%;
+}
+
+#content .bar {
+	background: -moz-linear-gradient(bottom, #e5e5e5, #d1d1d1);
+}
+
+.bar[busy="true"] {
+	background: url(throbber-16.png) 5px 5px no-repeat;
+	-moz-background-size: 12px;
+	background-size: 12px;
+	padding-left: 18px !important;
+}
+
+.subbar[is_open] {
+	background: url(arrow-down-blue.png) 7px 5px no-repeat, -moz-linear-gradient(bottom, #798bb2, #a2b1cf) !important;
+}
+
+.subbar {
+	background: url(arrow-right-blue.png) 8px 4px no-repeat, -moz-linear-gradient(bottom, #798bb2, #a2b1cf);
+}
+
+button, input[type='submit'] {
+	-moz-border-radius: 10px;
+	background: -moz-linear-gradient(bottom, #dfdfdf, #fcfcfc);
+}
+
+button:active, input[type="submit"]:active {
+	background: -moz-linear-gradient(bottom, #c3c3c3, #eeeeee);
+}
+
+button.busy, input[type="submit"].busy {
+	background: url(throbber-16.png) 8px 2px no-repeat, -moz-linear-gradient(bottom, #dfdfdf, #fcfcfc);
+	-moz-background-size: 12px, auto;
+	background-size: 12px, auto;
+}
+
+button.busy:active, input[type="submit"].busy:active {
+	background: url(throbber-16.png) 8px 2px no-repeat, -moz-linear-gradient(bottom, #c3c3c3, #eeeeee);
+}
+
+#list-entries, #list-entries option {
+	width: 100%;
+	max-width: 100%;
+}

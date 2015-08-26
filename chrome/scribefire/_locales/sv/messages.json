@@ -1,0 +1,362 @@
+{
+   "action_blog_add": {
+      "message": "Lägg till en ny blogg"
+   },
+   "action_cancel": {
+      "message": "Avbryt"
+   },
+   "action_customField_add": {
+      "message": "Lägg till eget fält"
+   },
+   "action_delete": {
+      "message": "Ta bort"
+   },
+   "action_draft_save": {
+      "message": "Spara ändringar"
+   },
+   "action_edit": {
+      "message": "Ändra"
+   },
+   "action_finish": {
+      "message": "Klar"
+   },
+   "action_insert": {
+      "message": "Infoga"
+   },
+   "action_makeMoney": {
+      "message": "Tjäna pengar på den här bloggen"
+   },
+   "action_next": {
+      "message": "Nästa"
+   },
+   "action_openBlogInTab": {
+      "message": "Öppna bloggen på en ny flik"
+   },
+   "action_permalink_edit": {
+      "message": "Permalänk:"
+   },
+   "action_publishUpdate": {
+      "message": "Uppdatera $ignore1$ inlägge $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_remove": {
+      "message": "Ta bort"
+   },
+   "action_save": {
+      "message": "Spara"
+   },
+   "action_schedule": {
+      "message": "Schemaläggning:"
+   },
+   "action_video_add": {
+      "message": "Lägg till en video"
+   },
+   "action_view": {
+      "message": "Se"
+   },
+   "confirm_deletePost": {
+      "message": "Är du säker på att du vill radera detta inlägg? Det kommer att tas bort från din bloggserver och det kommer inte längre att synas på din blogg."
+   },
+   "continue": {
+      "message": "Fortsätt"
+   },
+   "entry_draft_label": {
+      "message": "Utkast"
+   },
+   "entry_localDraft_label": {
+      "message": "Lokalt utkast"
+   },
+   "entry_new_label": {
+      "message": "(ny)"
+   },
+   "entry_scheduled_label": {
+      "message": "Schemalagt"
+   },
+   "error_api_blogger_authToken": {
+      "message": "Kunde inte skaffa en verifieringstoken."
+   },
+   "error_api_blogger_authentication": {
+      "message": "Blogger säger att du har skrivit in fel användarnamn eller lösenord."
+   },
+   "error_api_blogger_captcha": {
+      "message": "Google kräver att du färdigställer denna CAPTCHA för att fortsätta:"
+   },
+   "error_api_blogger_deleted": {
+      "message": "Blogger säger att kontot du använder har raderats."
+   },
+   "error_api_blogger_disabled": {
+      "message": "Blogger säger att din tillgång till tjänsten har avaktiverats."
+   },
+   "error_api_blogger_tos": {
+      "message": "Blogger säger att du fortfarande måste acceptera Googles Användarvillkor; logga in på ditt konto för att sköta detta."
+   },
+   "error_api_blogger_unavailable": {
+      "message": "Blogger säger att tjänsten för tillfället inte går att använda."
+   },
+   "error_api_blogger_unknown": {
+      "message": "Blogger spelar fult, och ger ScribeFire föjande fel: $error$",
+      "placeholders": {
+         "error": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_blogger_uploadAPIUnavailable": {
+      "message": "Kunde inte kontakta bilduppladdningsAPI:t."
+   },
+   "error_api_blogger_verify": {
+      "message": "Blogger säger att du måste bekräfta ditt kontos e-postadress; logga in på ditt konto för att sköta detta."
+   },
+   "error_api_cannotConnect": {
+      "message": "ScribeFire kunde inte ansluta till din blogg."
+   },
+   "error_api_code412": {
+      "message": "Bloggen gav ett 412-fel. Du kan lösa det genom att följa instruktionerna på $url$",
+      "placeholders": {
+         "url": {
+            "content": "http://wordpress.org/support/topic/130095"
+         }
+      }
+   },
+   "error_api_getBlogs": {
+      "message": "ScribeFire kunde inte hämta den information som behövdes. Din blogg var hjälpsam och gav detta meddelandet: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_invalid": {
+      "message": "Det är inte ditt fel men ScribeFire letar efter ett API ($api_type$) som inte finns.\n\nOm du är en alpha-testare behöver du ta bort den här bloggen och lägga till den igen.",
+      "placeholders": {
+         "api_type": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noBlog": {
+      "message": "Lugn och fin. Du måste lägga till din blogg innan du kan publicera något."
+   },
+   "error_api_noCategorySupport": {
+      "message": "Denna blogg stöder inte att kategorier läggs till."
+   },
+   "error_api_noMessage": {
+      "message": "Bloggen gav ett $code$-fel men inga felmeddelanden kunde hittas.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noUploadSupport": {
+      "message": "Denna bloggen stöder inte uppladdning av filer."
+   },
+   "error_api_setup": {
+      "message": "Under försöket att hitta din bloggs inställningar snubblade ScribeFire över denna kod: $code$",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_setup_unknownBlogType": {
+      "message": "Du får gärna försöka att konfigurera din blogg manuellt."
+   },
+   "error_category_add": {
+      "message": "ScribeFire försökte verkligen hjälpa till, men något gick fel när en kategori skulle läggas till. Felkoden var $error_code$.",
+      "placeholders": {
+         "error_code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_header": {
+      "message": "Alltså, det här är pinsamt..."
+   },
+   "error_page_publish": {
+      "message": "ScribeFire kunde inte publicera din sida. Här är felet som stöttes på: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_post_delete": {
+      "message": "ScribeFire sprang på ett fel när din post skulle tas bort: $status$\n\n$msg$",
+      "placeholders": {
+         "msg": {
+            "content": "$2"
+         },
+         "status": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_post_publish": {
+      "message": "ScribeFire kunde inte publicera din post. Här är felet som stöttes på: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_unknown": {
+      "message": "Ett oväntat fel inträffade."
+   },
+   "error_video_noEmbed": {
+      "message": "ScribeFire kunde inte generera en inbäddad kod för denna videoaddress. Var snäll och kolla webbaddressen eller klistra in koden manuellt."
+   },
+   "extName": {
+      "message": "ScribeFire"
+   },
+   "firsttime_header": {
+      "message": "Välkommen till ScribeFire!"
+   },
+   "firsttime_text": {
+      "message": "Till att börja med vill du förmodligen lägga till din blogg. Stäng denna dialogrutan och klicka på 'Lägg till en blogg' för att komma igång."
+   },
+   "header_blogProperties": {
+      "message": "Blogginformation"
+   },
+   "header_video": {
+      "message": "Lägg till en video"
+   },
+   "label_apiUrl": {
+      "message": "API-webbadress:"
+   },
+   "label_blogId": {
+      "message": "Blogg-ID:"
+   },
+   "label_blog_type": {
+      "message": "Bloggtyp:"
+   },
+   "label_content": {
+      "message": "Postinnehåll"
+   },
+   "label_customFields": {
+      "message": "Egna fält"
+   },
+   "label_entry": {
+      "message": "Inlägg"
+   },
+   "label_excerpt": {
+      "message": "Sammanfattning:"
+   },
+   "label_help": {
+      "message": "HJÄLP!"
+   },
+   "label_loginCredentials": {
+      "message": "Inloggningsuppgifter:"
+   },
+   "label_name": {
+      "message": "Namn:"
+   },
+   "label_private": {
+      "message": "Privat"
+   },
+   "label_publish": {
+      "message": "Publicera"
+   },
+   "label_url": {
+      "message": "Webbadress:"
+   },
+   "notification_blog_add": {
+      "message": "Din blogg har lagts till!"
+   },
+   "notification_draft_delete": {
+      "message": "Utkastet borttaget."
+   },
+   "notification_draft_save": {
+      "message": "Utkastet sparat."
+   },
+   "notification_post_delete": {
+      "message": "Posten borttagen."
+   },
+   "option_blogType_atom": {
+      "message": "Atom"
+   },
+   "option_blogType_blogger": {
+      "message": "Blogger"
+   },
+   "option_blogType_metaweblog": {
+      "message": "MetaWeblog"
+   },
+   "option_blogType_movabletype": {
+      "message": "MovableType"
+   },
+   "option_blogType_select": {
+      "message": "(välj)"
+   },
+   "option_blogType_tumblr": {
+      "message": "Tumblr"
+   },
+   "option_blogType_wordpress": {
+      "message": "Wordpress"
+   },
+   "option_publish_immediately": {
+      "message": "Publicera omedelbart"
+   },
+   "option_publish_month1": {
+      "message": "jan"
+   },
+   "option_publish_month10": {
+      "message": "okt"
+   },
+   "option_publish_month11": {
+      "message": "nov"
+   },
+   "option_publish_month12": {
+      "message": "dec"
+   },
+   "option_publish_month2": {
+      "message": "feb"
+   },
+   "option_publish_month3": {
+      "message": "mar"
+   },
+   "option_publish_month4": {
+      "message": "apr"
+   },
+   "option_publish_month5": {
+      "message": "maj"
+   },
+   "option_publish_month6": {
+      "message": "jun"
+   },
+   "option_publish_month7": {
+      "message": "jul"
+   },
+   "option_publish_month8": {
+      "message": "aug"
+   },
+   "option_publish_month9": {
+      "message": "sep"
+   },
+   "prompt_newCategory": {
+      "message": "Nytt namn på kategori:"
+   },
+   "text_video1": {
+      "message": "Klistra in länken till videon i denna rutan."
+   },
+   "text_video2": {
+      "message": "t.ex. $url1$ eller $url2$",
+      "placeholders": {
+         "url1": {
+            "content": "youtube.com/watch?v=b_NVbDzsEuw"
+         },
+         "url2": {
+            "content": "http://hulu.com/watch/191543"
+         }
+      }
+   },
+   "text_video3": {
+      "message": "Alternativt, kopiera den kod som videosajten gav i denna rutan:"
+   }
+}

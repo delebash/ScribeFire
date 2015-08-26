@@ -1,0 +1,30 @@
+input[type="text"], input[type="password"], input[type="url"], input[type="email"], textarea, select {
+	width: 100%;
+}
+
+input.padded, select.padded {
+	width: 80%;
+}
+
+button, input[type="submit"] {
+	border: #a5a5a5 1px solid;
+	border-radius: 10px;
+	color: #000;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+button.busy, input[type="submit"].busy {
+	padding-left: 27px;
+	background-size: 12px 12px, auto;
+}
+
+button.text-button, .cancel-button {
+	border: 0;
+	color: #333;
+	text-decoration: underline;
+	cursor: pointer;
+	background: none !important;
+	padding-left: 15px;
+	padding-right: 15px;
+}

@@ -1,0 +1,122 @@
+{
+   "action_blog_add": {
+      "message": "Nieuw Blog toevoegen"
+   },
+   "action_cancel": {
+      "message": "Afbreken"
+   },
+   "action_customField_add": {
+      "message": "Voeg Custom Veld toe"
+   },
+   "action_delete": {
+      "message": "Verwijder"
+   },
+   "action_draft_save": {
+      "message": "Sla concept op"
+   },
+   "action_edit": {
+      "message": "Wijzig"
+   },
+   "action_finish": {
+      "message": "Afbreken"
+   },
+   "action_insert": {
+      "message": "Invoegen"
+   },
+   "action_makeMoney": {
+      "message": "Verdien meer geld met dit blog"
+   },
+   "action_next": {
+      "message": "Volgende"
+   },
+   "action_openBlogInTab": {
+      "message": "Open blog in een nieuwe tab."
+   },
+   "action_permalink_edit": {
+      "message": "Permalink:"
+   },
+   "action_remove": {
+      "message": "Verwijder"
+   },
+   "action_save": {
+      "message": "Opslaan"
+   },
+   "action_video_add": {
+      "message": "Voeg een video in"
+   },
+   "action_view": {
+      "message": "Bekijk"
+   },
+   "continue": {
+      "message": "Doorgaan"
+   },
+   "entry_draft_label": {
+      "message": "Schets"
+   },
+   "entry_localDraft_label": {
+      "message": "Lokale Schets"
+   },
+   "entry_new_label": {
+      "message": "(nieuw)"
+   },
+   "entry_scheduled_label": {
+      "message": "Geagendeerd"
+   },
+   "extName": {
+      "message": "ScribeFire"
+   },
+   "firsttime_header": {
+      "message": "Welkom bij Scribefire!"
+   },
+   "firsttime_text": {
+      "message": "Waarschijnlijk het eerste dat je wilt doen is het toevoegen van je eigen blog. Sluit dit venster en klik op \"Voeg een Nieuw Blog toe\" om te beginnen."
+   },
+   "label_apiUrl": {
+      "message": "API URL:"
+   },
+   "label_blogId": {
+      "message": "Blog ID:"
+   },
+   "label_blog_type": {
+      "message": "Blog type:"
+   },
+   "label_url": {
+      "message": "URL:"
+   },
+   "notification_blog_add": {
+      "message": "Het toevoegen van je blog is geslaagd!"
+   },
+   "notification_draft_delete": {
+      "message": "Schets verwijderd."
+   },
+   "notification_draft_save": {
+      "message": "Schets opgeslagen."
+   },
+   "notification_post_delete": {
+      "message": "Bericht succesvol verwijderd."
+   },
+   "option_blogType_atom": {
+      "message": "Atom"
+   },
+   "option_blogType_blogger": {
+      "message": "Blogger"
+   },
+   "option_blogType_metaweblog": {
+      "message": "MetaWeblog"
+   },
+   "option_blogType_movabletype": {
+      "message": "MovableType"
+   },
+   "option_blogType_select": {
+      "message": "(Selecteer)"
+   },
+   "option_blogType_tumblr": {
+      "message": "Tumblr"
+   },
+   "option_publish_immediately": {
+      "message": "Publiceer meteen"
+   },
+   "option_publish_month1": {
+      "message": "Jan"
+   }
+}

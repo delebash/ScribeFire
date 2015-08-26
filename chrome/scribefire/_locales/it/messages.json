@@ -1,0 +1,520 @@
+{
+   "action_adbull": {
+      "message": "Monetizza"
+   },
+   "action_blog_add": {
+      "message": "Aggiungi un nuovo Blog"
+   },
+   "action_blog_import": {
+      "message": "Importa i tuoi Blog"
+   },
+   "action_cancel": {
+      "message": "Annulla"
+   },
+   "action_cancel_import": {
+      "message": "Non importare questo Blog"
+   },
+   "action_category_add": {
+      "message": "Aggiungi una nuova Categoria"
+   },
+   "action_close": {
+      "message": "Chiudi"
+   },
+   "action_customField_add": {
+      "message": "Aggiungi un campo personalizzato"
+   },
+   "action_delete": {
+      "message": "Cancella"
+   },
+   "action_draft_save": {
+      "message": "Salva aggiornamenti"
+   },
+   "action_edit": {
+      "message": "Modifica"
+   },
+   "action_editHTML": {
+      "message": "Modifica il Codice (HTML e Markdown)"
+   },
+   "action_editVisual": {
+      "message": "Modifica visivamente"
+   },
+   "action_export": {
+      "message": "Esporta"
+   },
+   "action_finish": {
+      "message": "Finito"
+   },
+   "action_import": {
+      "message": "Importa"
+   },
+   "action_insert": {
+      "message": "Inserisci"
+   },
+   "action_makeMoney": {
+      "message": "Guadagna con questo blog"
+   },
+   "action_next": {
+      "message": "Successivo"
+   },
+   "action_openBlogInTab": {
+      "message": "Apri il blog in una nuova scheda"
+   },
+   "action_permalink_edit": {
+      "message": "Link permanente:"
+   },
+   "action_publishUpdate": {
+      "message": "Aggiorna $ignore1$ Post $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_remove": {
+      "message": "Rimuovi"
+   },
+   "action_reset": {
+      "message": "Inizia un nuovo $ignore1$ Post $ignore2$",
+      "placeholders": {
+         "ignore1": {
+            "content": "\u003Cspan class=\"entry-type-text\">"
+         },
+         "ignore2": {
+            "content": "\u003C/span>"
+         }
+      }
+   },
+   "action_save": {
+      "message": "Salva"
+   },
+   "action_schedule": {
+      "message": "Programma:"
+   },
+   "action_video_add": {
+      "message": "Inserisci un video"
+   },
+   "action_view": {
+      "message": "Vedi"
+   },
+   "action_zemanta_add": {
+      "message": "Aggiungere collegamenti ai articoli simili."
+   },
+   "confirm_deletePost": {
+      "message": "Sei sicuro di voler cancellare questo articolo? Verrà rimosso dal server del blog e non apparirà più sul tuo blog."
+   },
+   "continue": {
+      "message": "Continua"
+   },
+   "entry_draft_label": {
+      "message": "Bozza"
+   },
+   "entry_localDraft_label": {
+      "message": "Bozza locale"
+   },
+   "entry_new_label": {
+      "message": "(nuovo)"
+   },
+   "entry_scheduled_label": {
+      "message": "Programmato"
+   },
+   "error_api_blogger_authToken": {
+      "message": "Non riesco ad ottenere un token di autenticazione."
+   },
+   "error_api_blogger_authentication": {
+      "message": "Blogger dice che hai digitato username o password errati."
+   },
+   "error_api_blogger_captcha": {
+      "message": "Google richide che tu compliti questo CAPTCHA per poter continuare:"
+   },
+   "error_api_blogger_deleted": {
+      "message": "Blogger dice che l'account che stai usando è stato cancellato."
+   },
+   "error_api_blogger_disabled": {
+      "message": "Blogger dice che il tuo accesso è estato disabilitato."
+   },
+   "error_api_blogger_tos": {
+      "message": "Blogger dice che non hai ancora accettato i termini di servizio di Google; entra nel tuo account direttamente per gestire questa cosa."
+   },
+   "error_api_blogger_unavailable": {
+      "message": "Blogger dice che i suoi servizi sono temporaneamente non disponibili."
+   },
+   "error_api_blogger_unknown": {
+      "message": "Blogger non funziona correttamente; sta dando questo errore: $error$",
+      "placeholders": {
+         "error": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_blogger_uploadAPIUnavailable": {
+      "message": "Non riesco a raggiungere l'immgine da caricare della API."
+   },
+   "error_api_blogger_verify": {
+      "message": "Blogger dice che devi verificare la tua mail dell'account; entra nel tuo account direttamente per gestire questa cosa."
+   },
+   "error_api_cannotConnect": {
+      "message": "ScribeFire non riesce a connettersi con successo al tuo Blog."
+   },
+   "error_api_code412": {
+      "message": "Il Blog ha restituito un codice errore 412. Puoi risolvere questo problema seguendo le istruzioni su $url$",
+      "placeholders": {
+         "url": {
+            "content": "http://wordpress.org/support/topic/130095"
+         }
+      }
+   },
+   "error_api_getBlogs": {
+      "message": "ScribeFire non riesce ad ottenere le informazioni necessarie dal tuo Blog. Fortunatamente, il Blog ha restituito questo messaggio: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_api_invalid": {
+      "message": "Non è colpa tua, ma ScribeFire sta cercando un API ($api_type$) che non eisiste\n\nSe sei un alfa tester, devi rimuovere questo Blog e aggiungerlo nuovamente..",
+      "placeholders": {
+         "api_type": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noBlog": {
+      "message": "Frena.... è necessario aggiungere il tuo Blog prima di poter pubblicare."
+   },
+   "error_api_noCategorySupport": {
+      "message": "Questo blog non consente l'aggiunga di categorie."
+   },
+   "error_api_noMessage": {
+      "message": "Il Blog ha ritornato codice errore $code$, ma nessun messaggio di errore può essere trovato.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_noUploadSupport": {
+      "message": "Questo blog non consente il caricamento di file."
+   },
+   "error_api_setup": {
+      "message": "Mentre cercava di determinare le impostazioni del tuo Blog, ScribeFire è incorso in questo codice $code$",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_api_setup_unknownBlogType": {
+      "message": "Puoi tentare di configurare il tuo Blog manualmente."
+   },
+   "error_category_add": {
+      "message": "ScribeFire vorrebe essere veramente di aiuto, ma qualcosa è andato storto mentre tentava di aggiungere una categoria. Il codice di errore è: $error_code$.",
+      "placeholders": {
+         "error_code": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_header": {
+      "message": "Beh, questo è imbarazzante..."
+   },
+   "error_page_publish": {
+      "message": "ScribeFire non riesce a pubblicare la tua pagina. Questo è l'errore che è apparso: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_post_delete": {
+      "message": "ScribeFire è incorso in un errore di poco conto mentre tentava di cancellare il tuo articolo: $status$\n\n$msg$",
+      "placeholders": {
+         "msg": {
+            "content": "$2"
+         },
+         "status": {
+            "content": "$1"
+         }
+      }
+   },
+   "error_post_publish": {
+      "message": "ScribeFire non riesce a pubblicare il tuo articolo. Questo è l'errore che è apparso: $message$",
+      "placeholders": {
+         "message": {
+            "content": "\n\n$1"
+         }
+      }
+   },
+   "error_unknown": {
+      "message": "Si è incorsi in un errore inaspettato."
+   },
+   "error_video_noEmbed": {
+      "message": "ScribeFire non riesce a generare il codice da incorporare per questo indirizzo URL. Prego verficare l'URL o, manualmente, incollate il codice da incorporare in nel box in basso."
+   },
+   "extDescription": {
+      "message": "Un redattore blog, facile da usare per pubblicare al tutti i tuoi blog."
+   },
+   "extName": {
+      "message": "ScribeFire"
+   },
+   "firsttime_header": {
+      "message": "Benvenuto in ScribeFire!"
+   },
+   "firsttime_text": {
+      "message": "La prima cosa che probabilmente vuoi fare è aggiungere il tuo blog. Chiudi questa notifica e clicca su 'Aggiungi un nuovo Blog' per iniziare."
+   },
+   "header_blogProperties": {
+      "message": "Proprietà del Blog"
+   },
+   "header_video": {
+      "message": "Inserisci un video"
+   },
+   "label_adbull_site_url": {
+      "message": "URL del tuo sito:"
+   },
+   "label_apiUrl": {
+      "message": "API URL:"
+   },
+   "label_blog": {
+      "message": "Blog"
+   },
+   "label_blogId": {
+      "message": "ID del Blog"
+   },
+   "label_blog_type": {
+      "message": "Tipo Blog:"
+   },
+   "label_categories": {
+      "message": "Categorie"
+   },
+   "label_city": {
+      "message": "Città"
+   },
+   "label_content": {
+      "message": "Pubblica contenuto:"
+   },
+   "label_country": {
+      "message": "Paese:"
+   },
+   "label_customFields": {
+      "message": "Campi Personalizzati"
+   },
+   "label_email": {
+      "message": "Email:"
+   },
+   "label_entry": {
+      "message": "Conferma"
+   },
+   "label_excerpt": {
+      "message": "Estratto:"
+   },
+   "label_help": {
+      "message": "AIUTO!"
+   },
+   "label_loginCredentials": {
+      "message": "Credenziali di accesso"
+   },
+   "label_mailing_address": {
+      "message": "Indirizzo postale"
+   },
+   "label_name": {
+      "message": "Nome:"
+   },
+   "label_password": {
+      "message": "Password"
+   },
+   "label_password_confirm": {
+      "message": "Comferma la Password:"
+   },
+   "label_phone": {
+      "message": "Telefono"
+   },
+   "label_private": {
+      "message": "Privato"
+   },
+   "label_publish": {
+      "message": "Pubblica"
+   },
+   "label_state": {
+      "message": "Stato"
+   },
+   "label_tags": {
+      "message": "Etichette"
+   },
+   "label_url": {
+      "message": "URL:"
+   },
+   "label_username": {
+      "message": "Nome Utente"
+   },
+   "label_zipcode": {
+      "message": "Codice Postale"
+   },
+   "message_blogs_import": {
+      "message": "Importa i tuoi Bog dalla precedente versione di ScribeFire. ScribeFire popolerà quanti più campi possibili, ma sta a te cliccare su 'Fine' e poi correggere eventuali errori."
+   },
+   "notification_blog_add": {
+      "message": "Il tuo blog è stato aggiunto con successo!"
+   },
+   "notification_draft_delete": {
+      "message": "Bozza cancellata."
+   },
+   "notification_draft_save": {
+      "message": "Bozza salvata."
+   },
+   "notification_post_delete": {
+      "message": "L'articolo è stato cancellato con successo."
+   },
+   "notification_publish": {
+      "message": "Il tuo post è stato pubblicato con successo!"
+   },
+   "notification_publish_draft": {
+      "message": "La tua bozza è stata salvata con successo."
+   },
+   "notification_publish_update": {
+      "message": "Il tuo post è stato aggiornato con successo!"
+   },
+   "option_blogType_atom": {
+      "message": "Atom"
+   },
+   "option_blogType_blogger": {
+      "message": "Blogger"
+   },
+   "option_blogType_metaweblog": {
+      "message": "MetaWeblog"
+   },
+   "option_blogType_movabletype": {
+      "message": "MovableType"
+   },
+   "option_blogType_select": {
+      "message": "(seleziona)"
+   },
+   "option_blogType_tumblr": {
+      "message": "Tumblr"
+   },
+   "option_blogType_wordpress": {
+      "message": "Wordpress"
+   },
+   "option_publish_immediately": {
+      "message": "Pubblica immediatamente"
+   },
+   "option_publish_month1": {
+      "message": "Gen"
+   },
+   "option_publish_month10": {
+      "message": "Ott"
+   },
+   "option_publish_month11": {
+      "message": "Nov"
+   },
+   "option_publish_month12": {
+      "message": "Dic"
+   },
+   "option_publish_month2": {
+      "message": "Feb"
+   },
+   "option_publish_month3": {
+      "message": "Mar"
+   },
+   "option_publish_month4": {
+      "message": "Apr"
+   },
+   "option_publish_month5": {
+      "message": "Mag"
+   },
+   "option_publish_month6": {
+      "message": "Giu"
+   },
+   "option_publish_month7": {
+      "message": "Lug"
+   },
+   "option_publish_month8": {
+      "message": "Ago"
+   },
+   "option_publish_month9": {
+      "message": "Set"
+   },
+   "option_select_state": {
+      "message": "Seleziona uno Stato"
+   },
+   "options_page_title": {
+      "message": "Opzioni"
+   },
+   "prompt_newCategory": {
+      "message": "Nome nuova categoria:"
+   },
+   "settings_migrate": {
+      "message": "Importa/Esporta"
+   },
+   "text_count": {
+      "message": "$1 parole; $2 caratteri"
+   },
+   "text_get_started": {
+      "message": "Clicca su 'Aggiungi un nuovo Blog' per iniziare."
+   },
+   "text_uploading_image": {
+      "message": "Caricamento della tua immagine"
+   },
+   "text_uploading_images": {
+      "message": "Caricamento di $1 immagini..."
+   },
+   "text_video1": {
+      "message": "Incolla l'URL del video nel box sottostante."
+   },
+   "text_video2": {
+      "message": "es.: $url1$ oppure $url2$",
+      "placeholders": {
+         "url1": {
+            "content": "youtube.com/watch?v=b_NVbDzsEuw"
+         },
+         "url2": {
+            "content": "http://hulu.com/watch/191543"
+         }
+      }
+   },
+   "text_video3": {
+      "message": "Oppure incolla il codice da incorporare fornito dal tuo video in questo box:"
+   },
+   "time_ago_days": {
+      "message": "$1 giorni fa"
+   },
+   "time_ago_hours": {
+      "message": "$1 ore fa"
+   },
+   "time_ago_minutes": {
+      "message": "$1 minuti fa"
+   },
+   "time_ago_seconds": {
+      "message": "Meno d'un minuto fa"
+   },
+   "zemanta_image_instructions": {
+      "message": "Clicca su un'immagine per aggiungerla al tuo articolo"
+   },
+   "zemanta_instructions": {
+      "message": "Scegli i articoli che vuoi includere al tuo post:"
+   },
+   "zemanta_pixie_reminder": {
+      "message": "Indicare se ScribeFire può aggiungere o no un'immagine invisibile al tuo articolo quando usi Zemanta."
+   },
+   "zemanta_related_articles": {
+      "message": "Articoli simili, grazie a Zemanta:"
+   },
+   "zemanta_tos_accept_request": {
+      "message": "Se accetti i condizioni, clicca 'Continua.'"
+   },
+   "zemanta_tos_description": {
+      "message": "Per continuare, devi accettare i Condizioni di Servizio di Zemanta (mostrati di seguito)."
+   },
+   "zemanta_tracking_no": {
+      "message": "No, preferisco non includere una immagine di monitoraggio."
+   },
+   "zemanta_tracking_optin": {
+      "message": "Sarebbe possibile di permettere ScribeFire d'aggiungere un'immagine invisibile per contare le statistiche d'uso Zemanta?  Non noti la differenza.  Se non accetti, non ti domanderemo pìu."
+   },
+   "zemanta_tracking_yes": {
+      "message": "Sì, ScribeFire può aggiungere un'immagine di monitoraggio ai post quando uso Zemanta."
+   }
+}

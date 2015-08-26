@@ -1,0 +1,47 @@
+#content .bar {
+	background: #e5e5e5;
+	clear: both;
+}
+
+#list-entries {
+	float: left;
+}
+
+#underbar-entries .ui-deleteEntry {
+	float: right;
+	margin-left: 10px;
+}
+
+.bar[busy="true"] {
+	background: url(throbber-16.png) 5px 5px no-repeat;
+	background-size: 12px;
+	padding-left: 18px !important;
+}
+
+.subbar[is_open] {
+	background: #798bb2 url(arrow-down-blue.png) 7px 5px no-repeat;
+}
+
+.subbar {
+	background: #798bb2 url(arrow-right-blue.png) 8px 4px no-repeat;
+}
+
+button, input[type='submit'] {
+	border-radius: 10px;
+	background: #dfdfdf;
+}
+
+button:active, input[type="submit"]:active {
+	background: #c3c3c3;
+}
+
+button.busy, input[type="submit"].busy {
+	background: #dfdfdf url(throbber-16.png) 8px 2px no-repeat;
+	background-size: 12px;
+}
+
+button.busy:active, input[type="submit"].busy:active {
+	background: #c3c3c3 url(throbber-16.png) 8px 3px no-repeat;
+}
+
+#button-settings { display: none; }
